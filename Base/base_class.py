@@ -34,5 +34,5 @@ class Base():
     def get_screenshot(self):
         now_date = datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S")
         name_screenshot = 'Screenshot' + now_date + '.png'
-        self.driver.save_screenshot("C:\\Users\\G_GoodLike\\PycharmProjects\\SeleniumLessonFinalProject\\Screen\\" + name_screenshot)
+        self.driver.save_screenshot("C:\\Users\\G_GoodLike\\PycharmProjects\\UpStore_24\\Screen\\" + name_screenshot)
 
